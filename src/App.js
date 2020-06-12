@@ -1,12 +1,15 @@
 import React from 'react';
 import './assets/App.css';
+import ContextState from './context_state_config';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Blog</h1>
+const App = () => {
+
+  return(
+    <div>
+    <ContextState />
     </div>
-  );
+  )
 }
+
 
 export default App;
